@@ -70,7 +70,7 @@
     <fontcolor name="mod-local-variable-declaration" default="identifier" foreColor="fff8e1aa"/>
     
     <!-- (Abstract) [Eclipse keyword] -->
-    <fontcolor name="mod-abstract" default="keyword"/>
+    <fontcolor name="mod-abstract"/>
     <!-- (Visibility) [Eclipse keyword] -->
     <fontcolor name="mod-private"/>
     <fontcolor name="mod-protected"/>
@@ -81,7 +81,7 @@
     
     
     <!-- (Highlights) -->
-    <fontcolor name="mark-occurrences" bgColor="ffeceba3" />
+    <fontcolor name="mark-occurrences" bgColor="ff333333" />
     
     <!-- (Misc) -->
     <fontcolor name="mod-unused" waveUnderlined="ff999999"/>

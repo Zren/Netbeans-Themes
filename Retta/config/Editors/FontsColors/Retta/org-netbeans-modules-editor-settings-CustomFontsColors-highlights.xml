@@ -10,16 +10,21 @@
     <!-- currentLine -->
     <fontcolor name="highlight-caret-row" bgColor="ff2A2A2A" />
 
+    <!-- (Caret) -->
+    <fontcolor name="caret-color-insert-mode" foreColor="white"/>
+    <fontcolor name="caret-color-overwrite-mode" foreColor="white"/>
+    
+    <!-- (Misc) -->
+    <fontcolor name="text-limit-line-color" foreColor="ff221111" />
+    
+    
     <!-- -->
     <fontcolor foreColor="ff666666" name="code-folding"/>
-    <fontcolor foreColor="black" name="caret-color-insert-mode"/>
     <fontcolor bgColor="ffe0e8f1" foreColor="black" name="block-search"/>
-    <fontcolor foreColor="ffffa8a8" name="text-limit-line-color"/>
     <fontcolor bgColor="ffdfdfdf" name="readonly-files"/>
     <fontcolor bgColor="fff3ff0f" name="nbeditor-bracesMatching-match-multichar"/>
     <fontcolor foreColor="blue" name="hyperlinks" underline="blue"/>
     <fontcolor foreColor="red" name="status-bar-bold"/>
-    <fontcolor foreColor="black" name="caret-color-overwrite-mode"/>
     <fontcolor name="status-bar"/>
     <fontcolor bgColor="ffffb442" foreColor="black" name="inc-search"/>
     <fontcolor foreColor="ffcc0099" name="synchronized-text-blocks-ext"/>
