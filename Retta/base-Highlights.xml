@@ -17,12 +17,16 @@
     <!-- (Misc) -->
     <fontcolor name="text-limit-line-color" foreColor="ff221111" />
     
+    <!-- (Bracket Matching) -->
+    <fontcolor name="nbeditor-bracesMatching-match" bgColor="ff527D5D" />
+    <fontcolor name="nbeditor-bracesMatching-match-multichar" bgColor="ff527D5D" />
+    <fontcolor name="nbeditor-bracesMatching-mismatch" bgColor="ffd83636" />
+    <fontcolor name="nbeditor-bracesMatching-mismatch-multichar" bgColor="ffd83636" />
     
     <!-- -->
     <fontcolor foreColor="ff666666" name="code-folding"/>
     <fontcolor bgColor="ffe0e8f1" foreColor="black" name="block-search"/>
     <fontcolor bgColor="ffdfdfdf" name="readonly-files"/>
-    <fontcolor bgColor="fff3ff0f" name="nbeditor-bracesMatching-match-multichar"/>
     <fontcolor foreColor="blue" name="hyperlinks" underline="blue"/>
     <fontcolor foreColor="red" name="status-bar-bold"/>
     <fontcolor name="status-bar"/>
@@ -30,9 +34,6 @@
     <fontcolor foreColor="ffcc0099" name="synchronized-text-blocks-ext"/>
     <fontcolor foreColor="ff666666" name="code-folding-bar"/>
     <fontcolor bgColor="ffffb442" foreColor="black" name="highlight-search"/>
-    <fontcolor bgColor="ffd83636" name="nbeditor-bracesMatching-mismatch-multichar"/>
     <fontcolor foreColor="ff996600" name="synchronized-text-blocks-ext-slave"/>
     <fontcolor bgColor="ffdfdfdf" name="guarded"/>
-    <fontcolor bgColor="fff3ff0f" name="nbeditor-bracesMatching-match"/>
-    <fontcolor bgColor="ffd83636" name="nbeditor-bracesMatching-mismatch"/>
 </fontscolors>
