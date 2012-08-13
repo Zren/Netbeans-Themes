@@ -80,7 +80,7 @@
     <fontcolor name="mod-deprecated" strikeThrough="ffde6546"/>
     
     
-    <!-- (Highlights) -->
+    <!-- occurrenceIndication -->
     <fontcolor name="mark-occurrences" bgColor="ff333333" />
     
     <!-- (Misc) -->

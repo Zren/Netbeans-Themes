@@ -18,8 +18,8 @@
     <fontcolor name="text-limit-line-color" foreColor="ff221111" />
     
     <!-- (Bracket Matching) -->
-    <fontcolor name="nbeditor-bracesMatching-match" bgColor="ff527D5D" />
-    <fontcolor name="nbeditor-bracesMatching-match-multichar" bgColor="ff527D5D" />
+    <fontcolor name="nbeditor-bracesMatching-match" bgColor="ff3C5B44" />
+    <fontcolor name="nbeditor-bracesMatching-match-multichar" bgColor="ff3C5B44" />
     <fontcolor name="nbeditor-bracesMatching-mismatch" bgColor="ffd83636" />
     <fontcolor name="nbeditor-bracesMatching-mismatch-multichar" bgColor="ffd83636" />
     
