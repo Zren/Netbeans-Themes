@@ -23,10 +23,13 @@
     <fontcolor name="nbeditor-bracesMatching-mismatch" bgColor="ffd83636" />
     <fontcolor name="nbeditor-bracesMatching-mismatch-multichar" bgColor="ffd83636" />
     
+    <!-- (Read Only) -->
+    <fontcolor name="readonly-files" />
+    
     <!-- -->
     <fontcolor foreColor="ff666666" name="code-folding"/>
     <fontcolor bgColor="ffe0e8f1" foreColor="black" name="block-search"/>
-    <fontcolor bgColor="ffdfdfdf" name="readonly-files"/>
+    
     <fontcolor foreColor="blue" name="hyperlinks" underline="blue"/>
     <fontcolor foreColor="red" name="status-bar-bold"/>
     <fontcolor name="status-bar"/>

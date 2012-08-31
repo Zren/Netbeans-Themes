@@ -2,7 +2,7 @@
 <!DOCTYPE fontscolors PUBLIC "-//NetBeans//DTD Editor Fonts and Colors settings 1.1//EN" "http://www.netbeans.org/dtds/EditorFontsColors-1_1.dtd">
 <fontscolors>
     <!-- (JavaDoc) -->
-    <fontcolor name="javadoc-identifier" default="comment" foreColor="black" />
+    <fontcolor name="javadoc-identifier" default="comment" />
     <fontcolor name="javadoc-first-sentence" default="comment" >
         <font style="bold"/>
     </fontcolor>
