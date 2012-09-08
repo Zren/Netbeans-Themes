@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE fontscolors PUBLIC "-//NetBeans//DTD Editor Fonts and Colors settings 1.1//EN" "http://www.netbeans.org/dtds/EditorFontsColors-1_1.dtd">
+<fontscolors>
+    <!-- foreground / background -->
+    <fontcolor name="default" bgColor="ffFFFFFF" foreColor="ff000000"/>
+    <!-- string (& Character) -->
+    <fontcolor name="char" foreColor="ffce7b00"/>
+    <fontcolor name="string" foreColor="ffce7b00"/>
+    <!-- operator -->
+    <fontcolor name="operator" foreColor="ff000000"/>
+    <!-- keyword -->
+    <fontcolor name="keyword" foreColor="ff0000e6"/>
+    <!-- bracket (Seperator) -->
+    <fontcolor name="separator" foreColor="ff000000"/>
+    <!-- number -->
+    <fontcolor name="number" foreColor="ff000000"/>
+    <!-- (Identifier) -->
+    <fontcolor name="identifier"/>
+    <!-- field -->
+    <fontcolor name="field" default="identifier" foreColor="ff009900"/>
+    <!-- method -->
+    <fontcolor name="method" default="identifier" foreColor="ff000000"/>
+    <!-- (Comment) -->
+    <fontcolor name="comment" foreColor="ff969696" />
+    
+    <!-- (Effects) -->
+    <fontcolor name="warning" waveUnderlined="yellow"/>
+    <fontcolor name="error" waveUnderlined="red"/>
+    <fontcolor name="url" underline="blue"/>
+    
+    <!-- (Whitespace) -->
+    <fontcolor name="whitespace"/>
+    
+    
+    <!--  -->
+    <fontcolor name="markup-attribute" default="field" />
+    <fontcolor name="markup-attribute-value" default="string" />
+    <fontcolor name="markup-element" default="keyword" />
+    <fontcolor name="entity-reference" default="default" foreColor="black">
+        <font style="bold"/>
+    </fontcolor>
+</fontscolors>
