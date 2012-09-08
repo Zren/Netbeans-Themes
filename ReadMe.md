@@ -11,7 +11,7 @@ Creating New Themes
 
 Open git console in src/ as it has it's own git repo. Create a branch based on the basetheme branch so any changes to it will chain down to your theme when Netbeans adds new configurable values.
 
-Edit the files in the src folder. When done, run the builder scripts in _tools. It should automatically make/update an untracked folder called Themes.
+Edit the files in the src folder. When done, run the builder scripts in the tools folder. It should automatically make/update an untracked folder called Themes.
 
 
 
