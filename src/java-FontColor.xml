@@ -4,7 +4,7 @@
     <!-- (JavaDoc) -->
     
     <!-- javadoc -->
-    <fontcolor name="javadoc-identifier" default="comment" foreColor="ff000000" />
+    <fontcolor name="javadoc-identifier" default="comment" foreColor="ffB3B5AF" />
     <fontcolor name="javadoc-first-sentence" default="comment" >
         <font style="bold"/>
     </fontcolor>
@@ -21,7 +21,7 @@
     <fontcolor name="identifier" default="identifier" />
     
     <!-- enum -->
-    <fontcolor name="mod-enum" default="identifier" foreColor="ff000000">
+    <fontcolor name="mod-enum" default="identifier" foreColor="ffFFFFFF">
         <font style="bold"/>
     </fontcolor>
     <fontcolor name="mod-enum-declaration" default="identifier">
@@ -29,13 +29,13 @@
     </fontcolor>
     
     <!-- interface -->
-    <fontcolor name="mod-interface" default="identifier" foreColor="ff000000" />
+    <fontcolor name="mod-interface" default="identifier" foreColor="ffCAE682" />
     <fontcolor name="mod-interface-declaration" default="identifier">
         <font style="bold"/>
     </fontcolor>
     
     <!-- annotation -->
-    <fontcolor name="mod-annotation-type" default="identifier" foreColor="ff000000">
+    <fontcolor name="mod-annotation-type" default="identifier" foreColor="ff808080">
         <font style="bold"/>
     </fontcolor>
     <fontcolor name="mod-annotation-type-declaration" default="identifier">
@@ -43,7 +43,7 @@
     </fontcolor>
     
     <!-- class -->
-    <fontcolor name="mod-class" default="identifier" foreColor="ff000000"/>
+    <fontcolor name="mod-class" default="identifier" foreColor="ffCAE682"/>
     <fontcolor name="mod-class-declaration" default="identifier">
         <font style="bold"/>
     </fontcolor>
@@ -75,8 +75,8 @@
         <font style="bold"/>
     </fontcolor>
     <!-- localVariable / localVariableDeclaration -->
-    <fontcolor name="mod-local-variable" default="identifier" foreColor="ff000000"/>
-    <fontcolor name="mod-local-variable-declaration" default="identifier" foreColor="ff000000"/>
+    <fontcolor name="mod-local-variable" default="identifier" foreColor="ffD4C4A9"/>
+    <fontcolor name="mod-local-variable-declaration" default="identifier" foreColor="ffD4C4A9"/>
     
     <!-- (Abstract) [Eclipse keyword] -->
     <fontcolor name="mod-abstract"/>
@@ -90,7 +90,7 @@
     
     
     <!-- occurrenceIndication -->
-    <fontcolor name="mark-occurrences" bgColor="ffeceba3" />
+    <fontcolor name="mark-occurrences" bgColor="ff616161" />
     
     <!-- (Misc) -->
     <fontcolor name="mod-unused" waveUnderlined="ff999999"/>
