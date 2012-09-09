@@ -2,26 +2,26 @@
 <!DOCTYPE fontscolors PUBLIC "-//NetBeans//DTD Editor Fonts and Colors settings 1.1//EN" "http://www.netbeans.org/dtds/EditorFontsColors-1_1.dtd">
 <fontscolors>
     <!-- foreground / background -->
-    <fontcolor name="default" bgColor="ffFFFFFF" foreColor="ff000000"/>
+    <fontcolor name="default" bgColor="ff272822" foreColor="ffF8F8F2"/>
     <!-- string (& Character) -->
-    <fontcolor name="char" foreColor="ffce7b00"/>
-    <fontcolor name="string" foreColor="ffce7b00"/>
+    <fontcolor name="char" foreColor="ffE6DB74"/>
+    <fontcolor name="string" foreColor="ffE6DB74"/>
     <!-- operator -->
-    <fontcolor name="operator" foreColor="ff000000"/>
+    <fontcolor name="operator" foreColor="ffD8D8D8"/>
     <!-- keyword -->
-    <fontcolor name="keyword" foreColor="ff0000e6"/>
+    <fontcolor name="keyword" foreColor="ff66CCB3"/>
     <!-- bracket (Seperator) -->
-    <fontcolor name="separator" foreColor="ff000000"/>
+    <fontcolor name="separator" foreColor="ffD8D8D8"/>
     <!-- number -->
-    <fontcolor name="number" foreColor="ff000000"/>
+    <fontcolor name="number" foreColor="ff7FB347"/>
     <!-- (Identifier) -->
     <fontcolor name="identifier"/>
     <!-- field -->
-    <fontcolor name="field" default="identifier" foreColor="ff009900"/>
+    <fontcolor name="field" default="identifier" foreColor="ffBED6FF"/>
     <!-- method -->
-    <fontcolor name="method" default="identifier" foreColor="ff000000"/>
+    <fontcolor name="method" default="identifier" foreColor="ffFFFFFF"/>
     <!-- (Comment) -->
-    <fontcolor name="comment" foreColor="ff969696" />
+    <fontcolor name="comment" foreColor="ff75715E" />
     
     <!-- (Effects) -->
     <fontcolor name="warning" waveUnderlined="yellow"/>
