@@ -1,7 +1,7 @@
 Usage
 =====
 
-Theme Ediding
+Theme Editing
 -----
 
 While colours are stored in hexidecimal ARGB format, alpha is not checked/used for assumably all configurable values.
@@ -21,24 +21,30 @@ Themes
 Retta
 -----
 
-**Based on:** http://eclipsecolorthemes.org/?view=theme&id=1004
-
-**Download:** https://github.com/downloads/Zren/Netbeans-Themes/Retta.zip
+[Source](https://github.com/Zren/Netbeans-Themes/tree/Retta/src) |
+[Download](https://github.com/downloads/Zren/Netbeans-Themes/Retta.zip) |
+Based on: http://eclipsecolorthemes.org/?view=theme&id=1004
 
 **Differences:**
 
-    * occurrenceIndication: #5E5C56 -> #333
+    occurrenceIndication: #5E5C56 -> #333
  
  
 Sunburst
 -----
 
-**Based on:** http://eclipsecolorthemes.org/?view=theme&id=383
-**Download:** https://github.com/downloads/Zren/Netbeans-Themes/Sunburst.zip
+[Source](https://github.com/Zren/Netbeans-Themes/tree/Sunburst/src) |
+[Download](https://github.com/downloads/Zren/Netbeans-Themes/Sunburst.zip) |
+Based on: http://eclipsecolorthemes.org/?view=theme&id=383
 
 
 Zenburn
 -----
 
-**Based on:** http://eclipsecolorthemes.org/?view=theme&id=2
-**Download:** https://github.com/downloads/Zren/Netbeans-Themes/Zenburn.zip
+[Source](https://github.com/Zren/Netbeans-Themes/tree/Zenburn/src) |
+[Download](https://github.com/downloads/Zren/Netbeans-Themes/Zenburn.zip) |
+Based on: http://eclipsecolorthemes.org/?view=theme&id=2
+
+**Differences:**
+
+    enum: n/a -> #fff
