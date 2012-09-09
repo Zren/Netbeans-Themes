@@ -5,7 +5,7 @@
     <fontcolor name="selection" bgColor="ff757575" foreColor="ffD0D0D0" />
     
     <!-- lineNumber -->
-    <fontcolor name="line-number" foreColor="ffF8F8F2" />
+    <fontcolor name="line-number" default="default" foreColor="ffF8F8F2" />
     
     <!-- currentLine -->
     <fontcolor name="highlight-caret-row" bgColor="ff3E3D32" />
