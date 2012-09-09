@@ -34,6 +34,7 @@ Sunburst
 -----
 
 **Based on:** http://eclipsecolorthemes.org/?view=theme&id=383
+
 **Download:** https://github.com/downloads/Zren/Netbeans-Themes/Sunburst.zip
 
 
@@ -41,4 +42,9 @@ Zenburn
 -----
 
 **Based on:** http://eclipsecolorthemes.org/?view=theme&id=2
+
 **Download:** https://github.com/downloads/Zren/Netbeans-Themes/Zenburn.zip
+
+**Differences:**
+
+    * enum: n/a -> #fff
