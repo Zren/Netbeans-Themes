@@ -33,7 +33,7 @@ def clean(bin_folder):
     if os.path.exists(bin_folder):
         shutil.rmtree(bin_folder)
         
-def compile_if_found(src_folder, src_filename, relative_dir_path, bin_folder, dest_filename):
+def compile_if_found(src_folder, src_filename, bin_folder, relative_dir_path, dest_filename):
     src_path = pjoin(src_folder, src_filename)
     if os.path.exists(src_path):
         dir_path = pjoin(bin_folder, relative_dir_path)
@@ -45,17 +45,17 @@ def compile(src_folder, theme_name, bin_folder):
     src_filename = 'base-FontColor.xml'
     relative_dir_path = pjoin('config', 'Editors', 'FontsColors', theme_name)
     dest_filename = 'org-netbeans-modules-editor-settings-CustomFontsColors-tokenColorings.xml'
-    compile_if_found(src_folder, src_filename, relative_dir_path, bin_folder, dest_filename)
+    compile_if_found(src_folder, src_filename, bin_folder, relative_dir_path, dest_filename)
     #
     src_filename = 'base-Highlights.xml'
     relative_dir_path = pjoin('config', 'Editors', 'FontsColors', theme_name)
     dest_filename = 'org-netbeans-modules-editor-settings-CustomFontsColors-highlights.xml'
-    compile_if_found(src_folder, src_filename, relative_dir_path, bin_folder, dest_filename)
+    compile_if_found(src_folder, src_filename, bin_folder, relative_dir_path, dest_filename)
     #
     src_filename = 'java-FontColor.xml'
     relative_dir_path = pjoin('config', 'Editors', 'text', 'x-java', 'FontsColors', theme_name)
     dest_filename = 'org-netbeans-modules-editor-settings-CustomFontsColors-tokenColorings.xml'
-    compile_if_found(src_folder, src_filename, relative_dir_path, bin_folder, dest_filename)
+    compile_if_found(src_folder, src_filename, bin_folder, relative_dir_path, dest_filename)
 
 def pack(bin_folder, themes_folder, theme_name):
     create_zip(pjoin(bin_folder, 'config'), 'config', pjoin(themes_folder, theme_name  + '.zip'))
