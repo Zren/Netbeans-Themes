@@ -29,52 +29,54 @@ def create_zip(path, relname, archname):
     archive.close()
 ###
 
-def makeNetbeansTheme(src_folder, themes_folder):
+def clean(bin_folder):
+    if os.path.exists(bin_folder):
+        shutil.rmtree(bin_folder)
+        
+def compile_if_found(src_folder, src_filename, relative_dir_path, bin_folder, dest_filename):
+    src_path = pjoin(src_folder, src_filename)
+    if os.path.exists(src_path):
+        dir_path = pjoin(bin_folder, relative_dir_path)
+        if not os.path.exists(dir_path):
+            os.makedirs(dir_path)
+        shutil.copy(src_path, pjoin(dir_path, dest_filename))
+
+def compile(src_folder, theme_name, bin_folder):
+    src_filename = 'base-FontColor.xml'
+    relative_dir_path = pjoin('config', 'Editors', 'FontsColors', theme_name)
+    dest_filename = 'org-netbeans-modules-editor-settings-CustomFontsColors-tokenColorings.xml'
+    compile_if_found(src_folder, src_filename, relative_dir_path, bin_folder, dest_filename)
+    #
+    src_filename = 'base-Highlights.xml'
+    relative_dir_path = pjoin('config', 'Editors', 'FontsColors', theme_name)
+    dest_filename = 'org-netbeans-modules-editor-settings-CustomFontsColors-highlights.xml'
+    compile_if_found(src_folder, src_filename, relative_dir_path, bin_folder, dest_filename)
+    #
+    src_filename = 'java-FontColor.xml'
+    relative_dir_path = pjoin('config', 'Editors', 'text', 'x-java', 'FontsColors', theme_name)
+    dest_filename = 'org-netbeans-modules-editor-settings-CustomFontsColors-tokenColorings.xml'
+    compile_if_found(src_folder, src_filename, relative_dir_path, bin_folder, dest_filename)
+
+def pack(bin_folder, themes_folder, theme_name):
+    create_zip(pjoin(bin_folder, 'config'), 'config', pjoin(themes_folder, theme_name  + '.zip'))
+    
+def makeNetbeansTheme(src_folder, themes_folder, theme_name=None, ops=['clean', 'compile', 'pack', 'clean']):
     Config = ConfigParser.ConfigParser()
     Config.read(pjoin(src_folder, 'theme.ini'))
-    theme_name = Config.get('Theme', 'name')
+    
+    if not theme_name:
+        theme_name = Config.get('Theme', 'name')
 
     bin_folder = pjoin(src_folder, 'target')
-
-    def clean():
-        if os.path.exists(bin_folder):
-            shutil.rmtree(bin_folder)
-    def compile():
-        def compile_if_found(src_filename, relative_dir_path, dest_filename):
-            src_path = pjoin(src_folder, src_filename)
-            if os.path.exists(src_path):
-                dir_path = pjoin(bin_folder, relative_dir_path)
-                if not os.path.exists(dir_path):
-                    os.makedirs(dir_path)
-                shutil.copy(src_path, pjoin(dir_path, dest_filename))
-        #
-        src_filename = 'base-FontColor.xml'
-        relative_dir_path = pjoin('config', 'Editors', 'FontsColors', theme_name)
-        dest_filename = 'org-netbeans-modules-editor-settings-CustomFontsColors-tokenColorings.xml'
-        compile_if_found(src_filename, relative_dir_path, dest_filename)
-        #
-        src_filename = 'base-Highlights.xml'
-        relative_dir_path = pjoin('config', 'Editors', 'FontsColors', theme_name)
-        dest_filename = 'org-netbeans-modules-editor-settings-CustomFontsColors-highlights.xml'
-        compile_if_found(src_filename, relative_dir_path, dest_filename)
-        #
-        src_filename = 'java-FontColor.xml'
-        relative_dir_path = pjoin('config', 'Editors', 'text', 'x-java', 'FontsColors', theme_name)
-        dest_filename = 'org-netbeans-modules-editor-settings-CustomFontsColors-tokenColorings.xml'
-        compile_if_found(src_filename, relative_dir_path, dest_filename)
-    def pack():
-        create_zip(pjoin(bin_folder, 'config'), 'config', pjoin(themes_folder, theme_name  + '.zip'))
-
-    clean()
-    compile()
-    pack()
-    clean()
-
-
-
-
-
-
+    
+    op_funcs = {
+        'clean': lambda: clean(bin_folder),
+        'compile': lambda: compile(src_folder, theme_name, bin_folder),
+        'pack': lambda: pack(bin_folder, themes_folder, theme_name)
+    }
+    
+    for op in ops:
+        op_funcs[op]()
 
 def main():
     filename = sys.argv[0]
