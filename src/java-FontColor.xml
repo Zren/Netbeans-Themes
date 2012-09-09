@@ -4,7 +4,7 @@
     <!-- (JavaDoc) -->
     
     <!-- javadoc -->
-    <fontcolor name="javadoc-identifier" default="comment" foreColor="ff000000" />
+    <fontcolor name="javadoc-identifier" default="comment" />
     <fontcolor name="javadoc-first-sentence" default="comment" >
         <font style="bold"/>
     </fontcolor>
@@ -13,7 +13,7 @@
     </fontcolor>
     
     <!-- javadocTag -->
-    <fontcolor name="javadoc-tag" default="comment" foreColor="ff9393CC">
+    <fontcolor name="javadoc-tag" default="comment">
         <font style="bold"/>
     </fontcolor>
     
@@ -21,7 +21,7 @@
     <fontcolor name="identifier" default="identifier" />
     
     <!-- enum -->
-    <fontcolor name="mod-enum" default="identifier" foreColor="ff000000">
+    <fontcolor name="mod-enum" default="identifier" foreColor="ff7FB347">
         <font style="bold"/>
     </fontcolor>
     <fontcolor name="mod-enum-declaration" default="identifier">
@@ -29,13 +29,13 @@
     </fontcolor>
     
     <!-- interface -->
-    <fontcolor name="mod-interface" default="identifier" foreColor="ff000000" />
+    <fontcolor name="mod-interface" default="identifier" foreColor="ffF9F9F9" />
     <fontcolor name="mod-interface-declaration" default="identifier">
         <font style="bold"/>
     </fontcolor>
     
     <!-- annotation -->
-    <fontcolor name="mod-annotation-type" default="identifier" foreColor="ff000000">
+    <fontcolor name="mod-annotation-type" default="identifier" foreColor="ffA020F0">
         <font style="bold"/>
     </fontcolor>
     <fontcolor name="mod-annotation-type-declaration" default="identifier">
@@ -43,7 +43,7 @@
     </fontcolor>
     
     <!-- class -->
-    <fontcolor name="mod-class" default="identifier" foreColor="ff000000"/>
+    <fontcolor name="mod-class" default="identifier" foreColor="ffF9F9F9"/>
     <fontcolor name="mod-class-declaration" default="identifier">
         <font style="bold"/>
     </fontcolor>
@@ -67,7 +67,7 @@
     <fontcolor name="keyword-directive" default="keyword" />
     <fontcolor name="literal" default="keyword" />
     <!-- parameterVariable -->
-    <fontcolor name="mod-parameter" default="identifier" />
+    <fontcolor name="mod-parameter" default="identifier" foreColor="ff4B9CE9" />
     <fontcolor name="mod-parameter-declaration" default="identifier" />
     <!-- (Constructor) -->
     <fontcolor name="mod-constructor" default="identifier" />
@@ -75,8 +75,8 @@
         <font style="bold"/>
     </fontcolor>
     <!-- localVariable / localVariableDeclaration -->
-    <fontcolor name="mod-local-variable" default="identifier" foreColor="ff000000"/>
-    <fontcolor name="mod-local-variable-declaration" default="identifier" foreColor="ff000000"/>
+    <fontcolor name="mod-local-variable" default="identifier" foreColor="ff4B9CE9"/>
+    <fontcolor name="mod-local-variable-declaration" default="identifier" foreColor="ff4B9CE9"/>
     
     <!-- (Abstract) [Eclipse keyword] -->
     <fontcolor name="mod-abstract"/>
@@ -86,11 +86,11 @@
     <fontcolor name="mod-public"/>
 
     <!-- deprecatedMember [Eclipse overrides the foreColor] -->
-    <fontcolor name="mod-deprecated" strikeThrough="ffFFFFFF"/>
+    <fontcolor name="mod-deprecated" strikeThrough="ffF9F9F9"/>
     
     
     <!-- occurrenceIndication -->
-    <fontcolor name="mark-occurrences" bgColor="ffeceba3" />
+    <fontcolor name="mark-occurrences" bgColor="ff5A5A5A" />
     
     <!-- (Misc) -->
     <fontcolor name="mod-unused" waveUnderlined="ff999999"/>
