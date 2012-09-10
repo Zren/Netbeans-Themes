@@ -21,7 +21,9 @@
     <!-- method -->
     <fontcolor name="method" default="identifier" foreColor="ffF9F9F9"/>
     <!-- (Comment) -->
-    <fontcolor name="comment" foreColor="ffA8A8A8" />
+    <fontcolor name="comment" foreColor="ffA8A8A8">
+        <font style="italic"/>
+    </fontcolor>
     
     <!-- (Effects) -->
     <fontcolor name="warning" waveUnderlined="yellow"/>
