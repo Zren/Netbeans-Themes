@@ -13,10 +13,25 @@ Open git console in src/ as it has it's own git repo. Create a branch based on t
 
 Edit the files in the src folder. When done, run the builder scripts in the tools folder. It should automatically make/update an untracked folder called Themes.
 
+Useful Links
+=====
 
+*   http://www.wordfraud.net/themebuilder/ - A theme builder for PHP/HTML/Javascript/CSS
 
 Themes
 =====
+
+Monokai
+-----
+
+~~[Source](https://github.com/Zren/Netbeans-Themes/tree/Monokai/src)~~ |
+~~[Download](https://github.com/downloads/Zren/Netbeans-Themes/Monokai.zip)~~ |
+Based on: http://eclipsecolorthemes.org/?view=theme&id=52
+
+**Differences:**
+
+    occurrenceIndication: #5E5C56 -> #333
+
 
 Retta
 -----
