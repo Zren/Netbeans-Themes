@@ -2,7 +2,7 @@
 <!DOCTYPE fontscolors PUBLIC "-//NetBeans//DTD Editor Fonts and Colors settings 1.1//EN" "http://www.netbeans.org/dtds/EditorFontsColors-1_1.dtd">
 <fontscolors>
     <!-- selectionForeground / selectionBackground -->
-    <fontcolor name="selection" bgColor="ff000000" foreColor="ffDDF0FF" />
+    <fontcolor name="selection" bgColor="ffDDF0FF" foreColor="ff000000" />
     
     <!-- lineNumber -->
     <fontcolor name="line-number" default="default" foreColor="ffF9F9F9" />
