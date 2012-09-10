@@ -118,7 +118,8 @@ def pack(bin_folder, themes_folder, theme_name, selected_theme=None):
     """
         attr_file_content = attr_file_content % selected_theme
         content = nb_attr_contents(attr_file_content)
-        filename = pjoin(bin_folder, nb_info_filename)
+        relative_dir_path = 'config'
+        filename = pjoin(bin_folder, relative_dir_path, nb_info_filename)
         f = open(filename, 'w')
         f.write(content)
         f.close()
