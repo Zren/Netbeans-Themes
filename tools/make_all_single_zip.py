@@ -22,9 +22,9 @@ def main():
     makeNetbeansTheme(src_folder, themes_folder, ops=['clean'])
     for branch in branches:
         gitCheckout(branch)
-        makeNetbeansTheme(src_folder, themes_folder, ops=['compile'])
+        makeNetbeansTheme(src_folder, themes_folder, ops=['compile_src', 'compile_attr_files'], selected_theme="")
     theme_pack_name = 'Netbean Themes (%s)' % datetime.date.today().isoformat()
-    makeNetbeansTheme(src_folder, themes_folder, theme_name=theme_pack_name, ops=['pack'])
+    makeNetbeansTheme(src_folder, themes_folder, theme_name=theme_pack_name, ops=['pack', 'clean'])
 
 if __name__ == '__main__':
     main()
