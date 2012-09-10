@@ -2,31 +2,34 @@
 Netbeans Themes
 ===============
 
-Here are some themes specifically designed for Java source code.
+Here are some themes specifically designed for Java source code which are based off those found at http://eclipsecolorthemes.org/.
 
 
-## All-in-1 Bundle
+### All-in-1 Bundle
 
-While not always up to date, below is a download link that will contain the majority of the themes on this repository in a single zip for you to install.
+Below is a download link that will contain the majority of the themes on this repository in a single zip for you to install.
 
 **[Download All Themes](https://github.com/downloads/Zren/Netbeans-Themes/Netbean%20Themes.zip)**
 
 
-## Creating New Themes
+### Creating New Themes
 
-Open git console in src/ as it has it's own git repo. Create a branch based on the basetheme branch so any changes to it will chain down to your theme when Netbeans adds new configurable values.
+Clone this repo with `git clone git://github.com/Zren/Netbeans-Themes.git` then `cd Netbeans-Themes`
 
-Edit the files in the src folder. When done, run the builder scripts in the tools folder. It should automatically make/update an untracked folder called Themes.
+Create a new branch based off the master branch with `git branch ThemeName`. Then checkout that branch with `git checkout ThemeName`. Each theme has it's own branch based off the master branch so any changes to it will chain down to your theme when Netbeans adds new configurable values. **Do not** push from a theme branch to the master. Always edit the master branch when editing files outside `src/`.
 
+Go to the `src/` folder and edit the files within. They are renamed and all in a single folder for ease of use when editing. The .nbattr files will be auto generated. Right now, the scripts only supports the files for x-java and the base theme colors.
 
-## Theme Editing
+To build the theme, go into the `tools/` folder and run `make.bat`. Which will build a zip bundle in an untracked folder called Themes.
+
+### Theme Editing
 
 While colours are stored in hexidecimal ARGB format, alpha is not checked/used for assumably all configurable values.
 
 
-## Useful Links
+### Useful Links
 
-*   http://www.wordfraud.net/themebuilder/ - A theme builder for PHP/HTML/Javascript/CSS
+*   A theme builder for PHP/HTML/Javascript/CSS: http://www.wordfraud.net/themebuilder/
 
 
 
@@ -42,9 +45,10 @@ Themes
 [Download](https://github.com/downloads/Zren/Netbeans-Themes/Monokai.zip) |
 Based on: http://eclipsecolorthemes.org/?view=theme&id=52
 
-**Other versions:**
+#### Theme Links: ####
 
-*   http://codesleepshred.com/dark-netbeans-themes-oblivion-revival-and-monokai/
+*   Other Adaptions:
+    *   http://codesleepshred.com/dark-netbeans-themes-oblivion-revival-and-monokai/
 
 
 ## Retta
@@ -53,7 +57,7 @@ Based on: http://eclipsecolorthemes.org/?view=theme&id=52
 [Download](https://github.com/downloads/Zren/Netbeans-Themes/Retta.zip) |
 Based on: http://eclipsecolorthemes.org/?view=theme&id=1004
 
-**Differences:**
+#### Differences: ####
 
     occurrenceIndication: #5E5C56 -> #333
  
@@ -64,6 +68,11 @@ Based on: http://eclipsecolorthemes.org/?view=theme&id=1004
 [Download](https://github.com/downloads/Zren/Netbeans-Themes/Sunburst.zip) |
 Based on: http://eclipsecolorthemes.org/?view=theme&id=383
 
+#### Theme Links: ####
+
+*   Other Adaptions:
+    *   http://purplerockscissors.com/uncategorized/textmate-sunburst-theme-netbeans/
+
 
 ## Zenburn
 
@@ -71,6 +80,12 @@ Based on: http://eclipsecolorthemes.org/?view=theme&id=383
 [Download](https://github.com/downloads/Zren/Netbeans-Themes/Zenburn.zip) |
 Based on: http://eclipsecolorthemes.org/?view=theme&id=2
 
-**Differences:**
+#### Differences: ####
 
     enum: n/a -> #fff
+
+#### Theme Links: ####
+
+*   Theme wiki: http://slinky.imukuppi.org/zenburnpage/
+*   Other Adaptions:
+    *   https://github.com/elimc/Zenburn2012
