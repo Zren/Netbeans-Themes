@@ -5,6 +5,10 @@ Netbeans Themes
 Here are some themes specifically designed for Java source code which are based off those found at http://eclipsecolorthemes.org/.
 
 
+### Intalling
+
+Go to `Tools > Options` and select the Font's & Colors section. Then click Import at the bottom left and select the downloaded zip file. Click the checkbox next to All, and press OK. Netbeans will restart (or just quit I've found). The `Editor > Other` section when importing is there in order to select the theme you just installed.
+
 ### All-in-1 Bundle
 
 Below is a download link that will contain the majority of the themes on this repository in a single zip for you to install.
@@ -73,7 +77,20 @@ Based on: http://eclipsecolorthemes.org/?view=theme&id=383
 *   Other Adaptions:
     *   http://purplerockscissors.com/uncategorized/textmate-sunburst-theme-netbeans/
 
+    
+## Vibrant Ink
 
+[Source](https://github.com/Zren/Netbeans-Themes/tree/VibrantInk/src) |
+[Download](https://github.com/downloads/Zren/Netbeans-Themes/VibrantInk.zip) |
+Based on: http://eclipsecolorthemes.org/?view=theme&id=3
+
+#### Differences: ####
+
+    annotation: n/a -> #fff
+    findScope: #191919 -> #414C3B (selectionBackground)
+    occurrenceIndication: (bg) #616161 -> #414C3B (selection bg) + #fff (selection fg)
+    
+    
 ## Zenburn
 
 [Source](https://github.com/Zren/Netbeans-Themes/tree/Zenburn/src) |
