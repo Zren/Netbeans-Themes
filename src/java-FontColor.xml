@@ -24,13 +24,11 @@
     <fontcolor name="mod-enum" default="identifier" foreColor="ff408000">
         <font style="bold"/>
     </fontcolor>
-    <fontcolor name="mod-enum-declaration" default="identifier">
-        <font style="bold"/>
-    </fontcolor>
+    <fontcolor name="mod-enum-declaration" default="mod-enum" />
     
     <!-- interface -->
     <fontcolor name="mod-interface" default="identifier" foreColor="ff87F025" />
-    <fontcolor name="mod-interface-declaration" default="identifier">
+    <fontcolor name="mod-interface-declaration" default="mod-interface">
         <font style="bold"/>
     </fontcolor>
     
@@ -44,7 +42,7 @@
     
     <!-- class -->
     <fontcolor name="mod-class" default="identifier" foreColor="ff9CF828"/>
-    <fontcolor name="mod-class-declaration" default="identifier">
+    <fontcolor name="mod-class-declaration" default="mod-class">
         <font style="bold"/>
     </fontcolor>
 
@@ -68,7 +66,7 @@
     <fontcolor name="literal" default="keyword" />
     <!-- parameterVariable -->
     <fontcolor name="mod-parameter" default="identifier" foreColor="ff408000" />
-    <fontcolor name="mod-parameter-declaration" default="identifier" />
+    <fontcolor name="mod-parameter-declaration" default="mod-parameter" />
     <!-- (Constructor) -->
     <fontcolor name="mod-constructor" default="identifier" />
     <fontcolor name="mod-constructor-declaration" default="identifier" >
@@ -90,7 +88,7 @@
     
     
     <!-- occurrenceIndication -->
-    <fontcolor name="mark-occurrences" bgColor="ff616161" />
+    <fontcolor name="mark-occurrences" bgColor="ff414C3B" foreColor="ffFFFFFF" />
     
     <!-- (Misc) -->
     <fontcolor name="mod-unused" waveUnderlined="ff999999"/>
