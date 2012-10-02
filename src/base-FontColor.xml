@@ -32,11 +32,13 @@
     <fontcolor name="whitespace"/>
     
     
-    <!--  -->
-    <fontcolor name="markup-attribute" default="field" />
-    <fontcolor name="markup-attribute-value" default="string" />
-    <fontcolor name="markup-element" default="keyword" />
-    <fontcolor name="entity-reference" default="default" foreColor="black">
+    <!-- (Markup) -->
+    <fontcolor name="markup-element" default="keyword" /><!-- <tag ... > -->
+    <fontcolor name="markup-attribute" default="field" /> <!-- ... name=... (Includes the =)-->
+    <fontcolor name="markup-attribute-value" default="string" /> <!-- ..."string" ... -->
+    
+    <!-- (Ampersand escape code. Eg: &amp;) [Eclipse treats these as keywords]  -->
+    <fontcolor name="entity-reference" default="keyword">
         <font style="bold"/>
     </fontcolor>
 </fontscolors>

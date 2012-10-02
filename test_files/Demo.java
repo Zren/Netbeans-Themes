@@ -19,6 +19,8 @@ public class Demo {
         String s = CONSTANT;
         int i = 1; 
         E e = E.A;
+        C<Demo> c = new C<Demo>(Demo.class);
+        c.a();
     }
     
     public static void main(String[] args) {
