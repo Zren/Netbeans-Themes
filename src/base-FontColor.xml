@@ -34,7 +34,7 @@
     
     <!--  -->
     <fontcolor name="markup-element" default="keyword" /><!-- <tag ... > -->
-    <fontcolor name="markup-attribute" default="field" /> <!-- ... name=... -->
+    <fontcolor name="markup-attribute" default="field" /> <!-- ... name=... (Includes the =)-->
     <fontcolor name="markup-attribute-value" default="string" /> <!-- ..."string" ... -->
     <fontcolor name="entity-reference" default="default" foreColor="black">
         <font style="bold"/>
