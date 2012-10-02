@@ -5,24 +5,24 @@
     <fontcolor name="selection" bgColor="ffb0c5e3" foreColor="ff000000" />
     
     <!-- lineNumber -->
-    <fontcolor name="line-number" default="default" bgColor="ffe9e8e2" foreColor="ff000000" />
+    <fontcolor name="line-number" default="default" foreColor="ff2B91AF" />
     
     <!-- currentLine -->
-    <fontcolor name="highlight-caret-row" bgColor="ffe9eff8" />
+    <fontcolor name="highlight-caret-row" bgColor="ff202030" />
 
     <!-- (Caret) -->
     <fontcolor name="caret-color-insert-mode" foreColor="ff000000"/>
     <fontcolor name="caret-color-overwrite-mode" foreColor="ff000000"/>
     
     <!-- findScope (Bracket Matching) -->
-    <fontcolor name="nbeditor-bracesMatching-match" bgColor="fff3ff0f" />
-    <fontcolor name="nbeditor-bracesMatching-match-multichar" bgColor="fff3ff0f" />
+    <fontcolor name="nbeditor-bracesMatching-match" bgColor="ffFFFFFF" />
+    <fontcolor name="nbeditor-bracesMatching-match-multichar" bgColor="ffFFFFFF" />
     <fontcolor name="nbeditor-bracesMatching-mismatch" bgColor="ffd83636" />
     <fontcolor name="nbeditor-bracesMatching-mismatch-multichar" bgColor="ffd83636" />
     <fontcolor name="nbeditor-bracesMatching-sidebar" foreColor="ff6b8eb2" />
     
     <!-- (Read Only) -->
-    <fontcolor name="readonly-files" bgColor="ffdfdfdf" />
+    <fontcolor name="readonly-files" />
     
     <!-- (Misc) -->
     <fontcolor name="text-limit-line-color" foreColor="ffffa8a8" />
