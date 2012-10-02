@@ -16,9 +16,9 @@
     
     <!-- findScope (Bracket Matching) -->
     <fontcolor name="nbeditor-bracesMatching-match" bgColor="fff3ff0f" />
-    <fontcolor name="nbeditor-bracesMatching-match-multichar" bgColor="fff3ff0f" />
+    <fontcolor name="nbeditor-bracesMatching-match-multichar" default="nbeditor-bracesMatching-match" />
     <fontcolor name="nbeditor-bracesMatching-mismatch" bgColor="ffd83636" />
-    <fontcolor name="nbeditor-bracesMatching-mismatch-multichar" bgColor="ffd83636" />
+    <fontcolor name="nbeditor-bracesMatching-mismatch-multichar" default="nbeditor-bracesMatching-mismatch" />
     <fontcolor name="nbeditor-bracesMatching-sidebar" foreColor="ff6b8eb2" />
     
     <!-- (Read Only) -->
