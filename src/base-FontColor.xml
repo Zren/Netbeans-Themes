@@ -38,7 +38,7 @@
     <fontcolor name="markup-attribute-value" default="string" /> <!-- ..."string" ... -->
     
     <!-- (Ampersand escape code. Eg: &amp;) [Eclipse treats these as keywords]  -->
-    <fontcolor name="entity-reference" default="keyword" foreColor="black">
+    <fontcolor name="entity-reference" default="keyword">
         <font style="bold"/>
     </fontcolor>
 </fontscolors>
