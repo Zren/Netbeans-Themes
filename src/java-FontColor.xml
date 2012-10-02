@@ -5,32 +5,27 @@
     
     <!-- javadoc -->
     <fontcolor name="javadoc-identifier" default="comment" foreColor="ff000000" />
-    <fontcolor name="javadoc-first-sentence" default="comment" >
+    <fontcolor name="javadoc-first-sentence" default="javadoc-identifier">
         <font style="bold"/>
     </fontcolor>
-    <fontcolor name="html-tag" default="comment" foreColor="ff9999ff" >
+    <fontcolor name="html-tag" default="markup-element">
         <font style="bold"/>
     </fontcolor>
     
-    <!-- javadocTag -->
+    <!-- javadocTag [Eg: @param]  -->
     <fontcolor name="javadoc-tag" default="comment" foreColor="ff9393CC">
         <font style="bold"/>
     </fontcolor>
-    
-    <!-- (Identifier) -->
-    <fontcolor name="identifier" default="identifier" />
     
     <!-- enum -->
     <fontcolor name="mod-enum" default="identifier" foreColor="ff000000">
         <font style="bold"/>
     </fontcolor>
-    <fontcolor name="mod-enum-declaration" default="identifier">
-        <font style="bold"/>
-    </fontcolor>
+    <fontcolor name="mod-enum-declaration" default="mod-enum" />
     
     <!-- interface -->
     <fontcolor name="mod-interface" default="identifier" foreColor="ff000000" />
-    <fontcolor name="mod-interface-declaration" default="identifier">
+    <fontcolor name="mod-interface-declaration" default="mod-interface">
         <font style="bold"/>
     </fontcolor>
     
@@ -38,45 +33,52 @@
     <fontcolor name="mod-annotation-type" default="identifier" foreColor="ff000000">
         <font style="bold"/>
     </fontcolor>
-    <fontcolor name="mod-annotation-type-declaration" default="identifier">
-        <font style="bold"/>
-    </fontcolor>
+    <fontcolor name="mod-annotation-type-declaration" default="mod-annotation-type" />
     
     <!-- class -->
     <fontcolor name="mod-class" default="identifier" foreColor="ff000000"/>
-    <fontcolor name="mod-class-declaration" default="identifier">
+    <fontcolor name="mod-class-declaration" default="mod-class">
         <font style="bold"/>
     </fontcolor>
+    
+    <!-- method / methodDeclaration -->
+    <fontcolor name="mod-method" default="method" />
+    <fontcolor name="mod-method-declaration" default="mod-method" >
+        <font style="bold"/>
+    </fontcolor>
+     
+    <!-- field / (FieldDeclaration) -->
+    <fontcolor name="mod-field" default="field" />
+    <fontcolor name="mod-field-declaration" default="mod-field" />
 
     <!-- (Static) [Netbeans does not seperate "staticField, staticFinalField, staticMethod"] -->
     <fontcolor name="mod-static">
         <font style="italic"/>
     </fontcolor>
     
-    
-    <!-- (Character) -->
-    <fontcolor name="character" default="char" />
     <!-- (String Escape) -->
-    <fontcolor name="string-escape" default="string" >
+    <fontcolor name="string-escape" default="string">
         <font style="bold"/>
     </fontcolor>
-    <fontcolor name="string-escape-invalid" default="string" waveUnderlined="ffce7b00">
-        <font style="bold"/>
-    </fontcolor>
+    <fontcolor name="string-escape-invalid" default="string-escape" waveUnderlined="ffce7b00" />
     <!-- (Keywords) -->
     <fontcolor name="keyword-directive" default="keyword" />
     <fontcolor name="literal" default="keyword" />
+    
     <!-- parameterVariable -->
     <fontcolor name="mod-parameter" default="identifier" />
-    <fontcolor name="mod-parameter-declaration" default="identifier" />
+    <fontcolor name="mod-parameter-declaration" default="mod-parameter" />
+    
     <!-- (Constructor) -->
-    <fontcolor name="mod-constructor" default="identifier" />
-    <fontcolor name="mod-constructor-declaration" default="identifier" >
+    <fontcolor name="mod-constructor" default="mod-method" />
+    <fontcolor name="mod-constructor-declaration" default="mod-constructor" >
         <font style="bold"/>
     </fontcolor>
+    
     <!-- localVariable / localVariableDeclaration -->
     <fontcolor name="mod-local-variable" default="identifier" foreColor="ff000000"/>
-    <fontcolor name="mod-local-variable-declaration" default="identifier" foreColor="ff000000"/>
+    <fontcolor name="mod-local-variable-declaration" default="mod-local-variable" foreColor="ff000000"/>
+
     
     <!-- (Abstract) [Eclipse keyword] -->
     <fontcolor name="mod-abstract"/>
@@ -96,19 +98,14 @@
     <fontcolor name="mod-unused" waveUnderlined="ff999999"/>
     <fontcolor name="mod-package-private"/>
     
-    <!--  -->
+    <!-- (Inherited from base) -->
+    <fontcolor name="identifier" default="identifier" />
     <fontcolor name="comment" default="comment" />
     <fontcolor name="number" default="number" />
     <fontcolor name="separator" default="separator" />
     <fontcolor name="string" default="string" />
+    <fontcolor name="character" default="char" />
     <fontcolor name="keyword" default="keyword" />
     <fontcolor name="whitespace" default="whitespace" />
     <fontcolor name="operator" default="operator" />
-    <fontcolor name="mod-method" default="method" />
-    <fontcolor name="mod-method-declaration" default="method" >
-        <font style="bold"/>
-    </fontcolor>
-    <fontcolor name="mod-field" default="field" />
-    <fontcolor name="mod-field-declaration" default="field" />
-
 </fontscolors>
